@@ -7,13 +7,16 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "build:fab": "npm run build && fab-nextjs build"
+    "build:fab": "rm -rf .next && npm run build && fab-nextjs build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "memfs": "2.12.1",
+    "mock-express-response": "^0.2.2",
     "next": "^7.0.2",
+    "next-server": "7.0.2-canary.27",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
   }
