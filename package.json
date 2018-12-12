@@ -17,7 +17,11 @@
     "mock-express-response": "^0.2.2",
     "next": "^7.0.2",
     "next-server": "7.0.2-canary.27",
+    "path-browserify": "^1.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3"
+  },
+  "resolutions": {
+    "path-browserify": "1.0.0"
   }
 }
